@@ -22,7 +22,7 @@ Steps:
   * Click the drop down icon in between the plus icon and the two rectangles icon
   * Once the open click the Git Bash option on the list (if git isn't properly installed the option will not show up)
     ![image](https://user-images.githubusercontent.com/130005453/231017936-f386ae59-f350-4272-857b-773ecc4339e2.png)
-  * In the command line put in "ssh " + the username you looked up earlier + "@ieng6.ucsd.edu" (Example below)
+  * In the command line put in `ssh` + the username you looked up earlier + "@ieng6.ucsd.edu" (Example below)
   ![image](https://user-images.githubusercontent.com/130005453/231018880-f84d8917-e4e5-4a14-9c4d-b70d0b25bd6a.png)
   * You don't need to type the "$" because that just means the command line
   * (If first time using remote connect) Something like below will pop up and all you simply need to do is type in yes
@@ -32,13 +32,14 @@ Steps:
   ![image](https://user-images.githubusercontent.com/130005453/231020145-750dda06-2185-43b8-b2a9-3c50f20ff889.png)
 6. Try some commands
   * Some useful commands for starting are: 
-    `cd ~` 
-    `cd` 
-    `ls -lat` 
-    `ls -a` 
-    `ls`
+    1. `cd ~` : used to change into different directories 
+    2. `cd` : used to change into different directories
+    3. `ls -lat` : for displaying everything in the currect directory and other information about each item
+    4. `ls -a` : for displaying the contents of the current directory
+    5. `ls`: for displaying the contents of the current directory
   * Some code examples that were tried showed as follows:
-  ![image](https://user-images.githubusercontent.com/130005453/231022238-fbac159e-7762-4b33-9210-2f7e0bcb41bd.png)
+  ![image](https://user-images.githubusercontent.com/130005453/231022238-fbac159e-7762-4b33-9210-2f7e0bcb41bd.png)\
+  (The image above shows an example terminal which used some of the example codes mentioned before and their respective outputs. Although both `cd` commands didn't display anything, using the `ls` command after would help in getting a better sense on what is happening in the current directory, along with seeing what directory the `cd` commands took you into. Note: doing `cd ~` + a file name(in the current directory) will allow you to transfer into a new directory.) 
 7. When done exit the remote servers
   * Can be done by pressing `Ctrl and D`
   * An alternative is typing `exit` into the command line
